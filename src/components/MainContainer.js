@@ -8,6 +8,7 @@ const MainContainer = () => {
   return (
     <div className="mainContainer">
       <About />
+      <Portfolio />
     </div>
   );
 };
