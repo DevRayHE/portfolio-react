@@ -7,7 +7,10 @@ const About = () => {
         {/* hero div with profile picture, takes 3/12 col on medium and up screen, full container widht on small screen  */}
         <div id="hero-div" className="col-sm-12 col-md-3 text-center d-flex flex-column justify-content-center align-items-center">
           <section id="profile" className="hero">
-            <img src={"../assets/image/profile-pic-resized.jpg"} className="img-thumbnail rounded mx-auto d-blick" alt="Ray He profile"/>
+            <img 
+            // src={"../assets/image/profile-pic-resized.jpg"}
+            src="https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/profile-pic-resized.jpg?raw=true" 
+            className="img-thumbnail rounded mx-auto d-blick" alt="Ray He profile"/>
             <div className="hero-text">
               <h1 className="fw-bold m-2"><p>Ray HE</p></h1>
               {/* <br> */}

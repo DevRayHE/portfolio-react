@@ -3,7 +3,7 @@
     {
       "id":1,
       "name": "Fit-Mate Fitness Tracker",
-      "imageSrc": "../assets/image/fit-mate.jpg",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/fit-mate.jpg?raw=true",
       "deployedHref": "https://morning-fortress-74236.herokuapp.com",
       "githubHref": "https://github.com/DevRayHE/fit-mate",
       "techUsed": "Node.js / Express.js / MySQL / Handlebars / MVC",
@@ -12,7 +12,7 @@
     {
       "id":2,
       "name": "Travel Advisor",
-      "imageSrc": "../assets/image/project-country-travel-advisor.jpg",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/project-country-travel-advisor.jpg?raw=true",
       "deployedHref": "https://n1cholassmith.github.io/country-travel-advisor/",
       "githubHref": "https://github.com/DevRayHE/country-travel-advisor",
       "techUsed": "Javascript / CSS / HTML",
@@ -21,7 +21,7 @@
     {
       "id":3,
       "name": "Weather Dashboard",
-      "imageSrc": "../assets/image/weather-dashboard-2.jpg",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/weather-dashboard.jpg?raw=true",
       "deployedHref": "https://devrayhe.github.io/weather-dashboard/",
       "githubHref": "https://github.com/DevRayHE/weather-dashboard",
       "techUsed": "Javascript / CSS / HTML",

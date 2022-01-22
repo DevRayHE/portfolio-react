@@ -1,13 +1,14 @@
 import React from "react";
-import Nav from './Nav';
+import Navigation from './Navigation';
 
-const Header = () => {
+const Header = ({ currentPage, setPageChange }) => {
 	return (
 		<header
 			id="top-nav-bar"
 			className="linear-gradient-background-header sticky-top p-0"
 		>
-      <Nav />
+			{/* Passing down currentPage and SetPageChange states as props to Navigation child component */}
+      <Navigation currentPage={currentPage} setPageChange={setPageChange}/>
 		</header>
 	);
 };

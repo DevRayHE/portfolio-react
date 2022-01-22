@@ -1,6 +1,7 @@
 import React from "react";
 
-const Nav = () => {
+const Navigation = ({ currentPage, setPageChange }) => {
+	// Taking currentPage and setPageChange props from Header, which is From MainContainer, to set current display page
 	return (
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 			<div className="container-fluid">
@@ -19,28 +20,33 @@ const Nav = () => {
 
 				<div className="collapse navbar-collapse" id="navbarCollapseToggler">
 					<ul className="navbar-nav me-auto mb-2 mb-sm-0">
-						<li className="nav-item">
+						{/* <li className="nav-item">
 							<a className="nav-link active" aria-current="page" href="#home">
 								<h5>Home</h5>
 							</a>
-						</li>
+						</li> */}
 						<li className="nav-item">
-							<a className="nav-link" href="#about">
+							<a 
+							className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+							href="#about" 
+							onClick={() => setPageChange('About')}>
 								<h5>ABOUT</h5>
 							</a>
 						</li>
 						{/* dropdown nav item */}
 						<li className="nav-item dropdown">
 							<a
-								className="nav-link dropdown-toggle"
-								href="#"
-								id="dropdown03"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
+								className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+								// className="nav-link dropdown-toggle"
+								href="#Portfolio"
+								// id="dropdown03"
+								// data-bs-toggle="dropdown"
+								// aria-expanded="false"
+								onClick={() => setPageChange('Portfolio')}
 							>
 								<h5>PORTFOLIO</h5>
 							</a>
-							<ul className="dropdown-menu" aria-labelledby="dropdown03">
+							{/* <ul className="dropdown-menu" aria-labelledby="dropdown03">
 								<li>
 									<a className="dropdown-item" href="#project1">
 										Fit Mate
@@ -59,15 +65,21 @@ const Nav = () => {
 										Weather Dashboard
 									</a>
 								</li>
-							</ul>
+							</ul> */}
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#contact">
+							<a 
+							className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
+							href="#contact" 
+							onClick={() => setPageChange('Contact')}>
 								<h5>CONTACT</h5>
 							</a>
 						</li>
             <li className="nav-item">
-							<a className="nav-link" href="#resume">
+							<a 
+							className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+							href="#resume" 
+							onClick={() => setPageChange('Resume')}>
 								<h5>RESUME</h5>
 							</a>
 						</li>
@@ -78,4 +90,4 @@ const Nav = () => {
 	);
 };
 
-export default Nav;
+export default Navigation;
