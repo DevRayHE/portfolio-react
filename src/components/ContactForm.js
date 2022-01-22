@@ -25,7 +25,10 @@ function ContactForm() {
     e.preventDefault();
 
     // Alert the user their first and last name, clear the inputs
-    alert(`Hello ${name} ${email} your message is: ${message}`);
+    if (!name || !email || !message) {
+      alert(`Please complete all fields`);
+    }
+    
     setName("");
     setEmail("");
     setMessage("");
@@ -39,20 +42,26 @@ function ContactForm() {
 					</h2>
 			</header>
 
-      <form className="form">
+      <form className="form" onSubmit={handleFormSubmit}>
         <div className="form__input mb-3">
-          <p>Name:</p>
+          {/* <p></p> */}
+          <label>Name:</label>
+          <br/>
           <input
+            // required="required"
             value={name}
             name="name"
             onChange={handleInputChange}
             type="text"
-            placeholder="name"
+            placeholder="Name"
+            required
           />
         </div>
         
         <div className="form__input mb-3">
-        <p>Email address:</p>
+        {/* <p>Email address:</p> */}
+          <label>Email address</label>
+          <br/>
           <input
             // value="text"
             value={email}
@@ -60,6 +69,7 @@ function ContactForm() {
             onChange={handleInputChange}
             type="text"
             placeholder="Email address"
+            required
           />
         </div>
 
@@ -69,22 +79,22 @@ function ContactForm() {
         }
 
         <div className="form__input mb-3">
-        <p>Message:</p>
-          <textarea
-            className="form-control"
-            // value="text"
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            rows="8"
-            placeholder="Drop me a message here..."
-          />
+        {/* <p>Message:</p> */}
+        <label>Message:</label>
+        <textarea
+          className="form-control"
+          // value="text"
+          value={message}
+          name="message"
+          onChange={handleInputChange}
+          type="text"
+          rows="8"
+          placeholder="Drop me a message here..."
+          required
+        />
         </div>
-        
-        <button className="btn btn-secondary" type="button" onClick={handleFormSubmit}>
-          Submit
-        </button>
+        <input type="submit" className="btn btn-secondary"  
+        />
       </form>
     </div>
   );

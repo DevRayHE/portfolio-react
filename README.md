@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Portfolio React
 
-## Available Scripts
+ --- 
 
-In the project directory, you can run:
+## 📖Description
 
-### `npm start`
+### Portfolio single page website build and deployed by React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Langugaes used: 
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-### `npm test`
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-### `npm run build`
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ --- 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Table of Contents
 
-### `npm run eject`
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribute](#contribute)
+- [Credits](#credits)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ --- 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features 
+* Single-page application portfolio
+* Fully responsive layout build with mobile first approach
+* Reusable scalable page components built by React
+* Portfolio page with interactive tooltip, re
+* Contact form with correct entry live validation
+* Header and Footer components with polished UI.
+<br/>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ --- 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+[Link to this repo url](https://github.com/DevRayHE/portfolio-react)
+[Link to the deloyed site](https://devrayhe.github.io/portfolio-react/)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ --- 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contribute
 
-### Code Splitting
+When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please note we have a code of conduct, please follow it in all your interactions with the project.
 
-### Analyzing the Bundle Size
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ --- 
 
-### Making a Progressive Web App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+### MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Copyright (c) [2022] [Ray He]
 
-### Advanced Configuration
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Deployment
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+ --- 
 
-### `npm run build` fails to minify
+## Questions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+For any further questions or comments, feel free to contact me!
+
+[Link to my github profile](https://github.com/devrayhe/)
+
+[Drop me an email here](mailto:devrayhe@gmail.com)
+
+ --- 
+
+[Back to the top](#project-title)
