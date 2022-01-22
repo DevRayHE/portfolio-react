@@ -15,7 +15,7 @@
       "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/project-country-travel-advisor.jpg?raw=true",
       "deployedHref": "https://n1cholassmith.github.io/country-travel-advisor/",
       "githubHref": "https://github.com/DevRayHE/country-travel-advisor",
-      "techUsed": "Javascript / CSS / HTML",
+      "techUsed": "Javascript ES6 / CSS3 / HTML5",
       "description": "The Country Travel Advisor is your digital travel guide and an essential tool for planning a successful holiday, honeymoon or weekend getaway! The Country Travel Advisor utilizes Public API's and cutting edge features to organize the relevant information required to successfully navigate through any country you desire. The Country Travel Advisor was designed with a minimalistic approach, to display only relevant information to avoid decision paralysis and streamline your holiday experience before you have even left the house."
     },
     {
@@ -24,8 +24,35 @@
       "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/weather-dashboard.jpg?raw=true",
       "deployedHref": "https://devrayhe.github.io/weather-dashboard/",
       "githubHref": "https://github.com/DevRayHE/weather-dashboard",
-      "techUsed": "Javascript / CSS / HTML",
+      "techUsed": "Javascript ES6 / CSS3 / HTML5",
       "description": "Responsive Weather Dashboard site that displays live realworld weather data with 5 days forecast"
+    },
+    {
+      "id":4,
+      "name": "Text Editor PWA",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/text-editor-pwa.jpg?raw=true",
+      "deployedHref": "https://hidden-beyond-17212.herokuapp.com/",
+      "githubHref": "https://github.com/DevRayHE/text-editor-PWA",
+      "techUsed": "Node.js / Express.js / Javascript ES6 / CSS3/ HTML5",
+      "description": "This is a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline."
+    },
+    {
+      "id":5,
+      "name": "Social Network API",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/social-network-api.jpg?raw=true",
+      "deployedHref": "https://github.com/DevRayHE/social-network-api",
+      "githubHref": "https://github.com/DevRayHE/social-network-api",
+      "techUsed": "Mongo DB / Node.js / Express.js / Javascript ES6",
+      "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list."
+    },
+    {
+      "id":6,
+      "name": "Tech Blog",
+      "imageSrc": "https://github.com/DevRayHE/portfolio-react/blob/main/public/assets/image/tech-blog.jpg?raw=true",
+      "deployedHref": "https://desolate-ridge-04250.herokuapp.com/",
+      "githubHref": "https://github.com/DevRayHE/tech-blog",
+      "techUsed": "Mysql / Sequelize / Node.js / Javascript ES6 / CSS3 / HTML5",
+      "description": "This is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This site is completely build from scratch and deploy it to Heroku. The app has followed the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication."
     }
   ]
 }
