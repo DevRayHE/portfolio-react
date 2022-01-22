@@ -1,4 +1,6 @@
 import React from "react";
+// import images from "../assets/image";
+
 
 const Project = ({
 	id,
@@ -9,8 +11,12 @@ const Project = ({
 	techUsed,
 	description,
 }) => {
+
+	// import profileImage from {imageSrc};
+
 	return (
-		<div className="card col-md-5 col-lg-5 text-center p-2 m-2" id="project2">
+		// import projectImage from {imageSrc};
+		<div className="card col-md-5 col-lg-5 text-center p-2 m-2" id={"project" + id}>
 			<div className="card-header">
 				<button
 					type="button"
@@ -27,11 +33,11 @@ const Project = ({
 
 			<div className="card-body">
 				<img
-					src="./assets/image/project-country-travel-advisor.jpg"
+					src={imageSrc}
 					className="card-img"
 					alt="image of project country travel advisor"
-					data-bs-toggle="modal"
-					data-bs-target="#subProject1Modal"
+					// data-bs-toggle="modal"
+					// data-bs-target="#subProject1Modal"
 				/>
 
 				<ul className="project-icons">
@@ -63,7 +69,7 @@ const Project = ({
 
 			<div className="card-footer">
 				<p className="card-text">
-					<small className="text-muted">Javascript / CSS / HTML</small>
+					<small className="text-muted">{techUsed}</small>
 				</p>
 			</div>
 		</div>
