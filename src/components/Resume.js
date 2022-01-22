@@ -2,17 +2,18 @@ import React from "react";
 
 const Resume = () => {
 	return (
-		<div className="about__content col-sm-12 col-md-9">
+		<div className="resume align-items-center">
 			<section id="Resume">
 				<header id="resume-header" className="text-center">
-					<h2 className="border-bottom border-secondary border-3 fw-bold">
+					<h2 className="border-bottom border-secondary border-3 fw-bold align-items-center">
 						Resume
 					</h2>
+          <p>Download My <a href="https://drive.google.com/uc?id=1J8OHu3SpcXOmHne54nIKYocgq7dlln8G&export=download">resume</a></p>
 				</header>
-        <p>Download My <a href="https://drive.google.com/uc?id=1J8OHu3SpcXOmHne54nIKYocgq7dlln8G&export=download">resume</a></p>
-				<article>
+        
+				<article className="text-center">
 
-          <h3>
+          <h3 className="text-center">
             Languages:
           </h3>
           <ul>

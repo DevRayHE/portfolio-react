@@ -20,14 +20,18 @@ const Project = ({
 			<div className="card-header">
 				<button
 					type="button"
-					className="btn"
-					className="card-title fw-bold"
-					data-bs-container="body"
-					data-bs-toggle="popover"
-					data-bs-placement="bottom"
-					data-bs-content={description}
+					// className=""
+					className="btn card-title fw-bold"
+					// data-bs-container="body"
+					// data-bs-toggle="popover"
+					// data-bs-placement="bottom"
+					// data-bs-content={description}
+
+					data-bs-toggle="tooltip"
+					data-bs-placement="down"
+					title={description}
 				>
-					<h3 className="card-title fw-bold">{name}</h3>
+				<h3 className="card-title fw-bold">{name}</h3>
 				</button>
 			</div>
 

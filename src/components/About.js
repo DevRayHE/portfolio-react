@@ -5,7 +5,7 @@ const About = () => {
     <div className="container">
       <div className="row">
         {/* hero div with profile picture, takes 3/12 col on medium and up screen, full container widht on small screen  */}
-        <div id="hero-div" className="col-sm-12 col-md-3 text-center d-flex flex-column justify-content-center align-items-center">
+        <div id="hero-div" className="about__image col-sm-12 col-md-3 text-center d-flex flex-column justify-content-center align-items-center">
           <section id="profile" className="hero">
             <img 
             // src={"../assets/image/profile-pic-resized.jpg"}

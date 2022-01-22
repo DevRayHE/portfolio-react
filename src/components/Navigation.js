@@ -4,7 +4,7 @@ const Navigation = ({ currentPage, setPageChange }) => {
 	// Taking currentPage and setPageChange props from Header, which is From MainContainer, to set current display page
 	return (
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-			<div className="container-fluid">
+			<div className="navbar__container container-fluid">
 				{/* Collapse navigate button on small size screen  */}
 				<button
 					className="navbar-toggler"

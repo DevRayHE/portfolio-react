@@ -7,10 +7,10 @@ import Resume from './Resume';
 import Footer from './Footer';
 import { render } from 'react-dom';
 
-const MainContainer = () => {
+const MainContainer = ({ currentPage, setPageChange }) => {
 
-  // useState to set which page to render
-  const [currentPage, setPageChange] = useState('About');
+  // // useState to set which page to render
+  // const [currentPage, setPageChange] = useState('About');
 
   const renderPage = () => {
     switch (currentPage) {
@@ -36,15 +36,15 @@ const MainContainer = () => {
   }
 
   return (
-    <div className="mainContainer">
+    <div className="container mainContainer">
       {/* Passing down currentPage and SetPageChange states as props to Header child component */}
-      <Header currentPage={currentPage} setPageChange={setPageChange} />
+      {/* <Header currentPage={currentPage} setPageChange={setPageChange} /> */}
       {/* <About />
       <Portfolio />
       <ContactForm />
       <Resume /> */}
       {renderPage()}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

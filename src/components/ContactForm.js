@@ -18,7 +18,6 @@ function ContactForm() {
       name === 'email' ? setEmail(value) : "",
       name === 'message' ? setMessage(value) : ""
     );
-    
   };
 
   const handleFormSubmit = (e) => {
@@ -27,15 +26,21 @@ function ContactForm() {
 
     // Alert the user their first and last name, clear the inputs
     alert(`Hello ${name} ${email} your message is: ${message}`);
-    // setFirstName('');
-    // setLastName('');
+    setName("");
+    setEmail("");
+    setMessage("");
   }; 
 
   return (
-    <div className="container">
-  
+    <div className="container d-felx flex-row align-items-center">
+      <header className="contact__header text-center">
+					<h2 className="border-bottom border-secondary border-3 fw-bold align-items-center">
+						Contact Form
+					</h2>
+			</header>
+
       <form className="form">
-        <div className="mb-3">
+        <div className="form__input mb-3">
           <p>Name:</p>
           <input
             value={name}
@@ -46,7 +51,7 @@ function ContactForm() {
           />
         </div>
         
-        <div className="mb-3">
+        <div className="form__input mb-3">
         <p>Email address:</p>
           <input
             // value="text"
@@ -63,7 +68,7 @@ function ContactForm() {
         : <p>{invalidEmail}</p>
         }
 
-        <div className="mb-3">
+        <div className="form__input mb-3">
         <p>Message:</p>
           <textarea
             className="form-control"
@@ -72,11 +77,12 @@ function ContactForm() {
             name="message"
             onChange={handleInputChange}
             type="text"
+            rows="8"
             placeholder="Drop me a message here..."
           />
         </div>
         
-        <button type="button" onClick={handleFormSubmit}>
+        <button className="btn btn-secondary" type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
