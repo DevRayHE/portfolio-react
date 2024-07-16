@@ -18,19 +18,45 @@ const Resume = () => {
           </h3>
           <ul>
             <li>JavaScript ES6+</li>
-            <li>CSS3</li>
-            <li>HTML5</li>
+            <li>TypeScript</li>
             <li>SQL</li>
             <li>NoSQL</li>
           </ul>
 
           <h3>
-            Applications:
+            Backend:
           </h3>
           <ul>
-            <li>Github</li>
+            <li>Node.js</li>
+            <li>Express.js</li>
             <li>MongoDB</li>
-            <li>MySQL</li>
+            <li>Sequelize</li>
+          </ul>
+
+          <h3>
+            Frontend:
+          </h3>
+          <ul>
+            <li>React</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Bootstrap</li>
+            <li>SASS/SCSS</li>
+          </ul>
+
+          <h3>
+            Testing:
+          </h3>
+          <ul>
+            <li>Jest</li>
+            <li>Cypress</li>
+          </ul>
+
+          <h3>
+            APIs:
+          </h3>
+          <ul>
+            <li>REST</li>
             <li>GraphQL</li>
           </ul>
 
@@ -38,13 +64,9 @@ const Resume = () => {
             Tools:
           </h3>
           <ul>
-            <li>React</li>
-            <li>Node</li>
-            <li>Express</li>
-            <li>Handlebars</li>
-            <li>Jquery</li>
-            <li>Bootstrap</li>
-            <li>PWA</li>
+            <li>Git/GitHub</li>
+            <li>Docker</li>
+            <li>AWS (Lambda, ECS, Route 53, CloudFront, SQS)</li>
           </ul>
 				</article>
 			</section>

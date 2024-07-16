@@ -48,7 +48,7 @@ const Footer = () => {
 						</a>
 					</li>
 					<li className="ms-3" data-bs-toggle="tooltip" data-bs-placement="top" title="Download my resume">
-						<a className="text-muted" href="https://drive.google.com/uc?id=1J8OHu3SpcXOmHne54nIKYocgq7dlln8G&export=download">
+						<a className="text-muted" href="https://drive.google.com/uc?id=13P2wlhnk4H4W-__Cr0_mvyf9hXVDOXbW&export=download">
 							<span className=
 							// "contact-icon file"
 							"footer__icon"
